@@ -17,14 +17,15 @@
 
 8. Copy your guthub token value as you will **NOT** be able to access it again.
 9. In your variable.tf file, create two variables, one for your GitHub Token and one for the name of your new GitHub Repo
-10. This is what your main.tf file should look like in order to call those variables
+10. Make sure you have a **.gitignore** file with the appropriate files inside so you **DO NOT** push credentials to GitHub.
+11. This is what your main.tf file should look like in order to call those variables
 
 <br>
 
 ![alt text](image-1.png)
 
-11. Open a new **Git Bash** window, run the terraform commands `init, plan and apply` in that sequence
-12. You should have a GitHub repo created for you.
+12. Open a new **Git Bash** window, run the terraform commands `init, plan and apply` in that sequence
+13. You should have a GitHub repo created for you.
 <br>
 
 ![alt text](image-2.png)
