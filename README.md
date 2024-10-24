@@ -25,7 +25,7 @@
 ![alt text](image-1.png)
 
 12. Open a new **Git Bash** window, run the terraform commands `init, plan and apply` in that sequence
-13. You should have a GitHub repo created for you.
+13. You should have a GitHub repo created for you. You can now push your local folder to your new online repo
 <br>
 
 ![alt text](image-2.png)
