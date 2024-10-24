@@ -1,9 +1,9 @@
-# ***Creating a GitHub repo using Terraform***
-- [***Creating a GitHub repo using Terraform***](#creating-a-github-repo-using-terraform)
-  - [***Steps to create GitHub Repo***](#steps-to-create-github-repo)
-  - [***How Terraform is Given Permission:***](#how-terraform-is-given-permission)
+# ***Creating a GitHub repo using Terraform*** 🐙
+- [***Creating a GitHub repo using Terraform*** 🐙](#creating-a-github-repo-using-terraform-)
+  - [***Steps to create GitHub Repo*** 🪜](#steps-to-create-github-repo-)
+  - [***How Terraform is Given Permission:*** 🔐](#how-terraform-is-given-permission-)
 
-## ***Steps to create GitHub Repo***
+## ***Steps to create GitHub Repo*** 🪜
 1. Create a folder with an appropriate name in your local directory
 2. Create a main.tf file with github as the provider and a variable.tf file that you will later place your github token in
 3. Go to GitHub, log in and go to settings and scroll all the down to **Developer Settings** on the left-hand side 
@@ -33,6 +33,6 @@
 
 ---
 
-## ***How Terraform is Given Permission:***
+## ***How Terraform is Given Permission:*** 🔐
 GitHub Provider: Uses the Personal Access Token for authentication.
 You set the token as a variable and reference it in the main.tf file using var.github_token.
